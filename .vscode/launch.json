@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "punk - Dev",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_dev.dart"
+        },
+        {
+            "name": "punk - Prod",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_prod.dart"
+        },
+        {
+            "name": "punk (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile",
+            "program": "lib/main_prod.dart"
+        },
+        {
+            "name": "punk (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "program": "lib/main_prod.dart"
+        }
+    ]
+}
